@@ -3,14 +3,20 @@
 I have worked on Bank Marketing Dataset to train. I have used Microsoft Azure to configure a cloud-based machine learning production model, deploy, and consume it. After the authorization, I have created an automated ML model. Then I have deployed the best model and used Swagger API for HTTP requests to communicate with the deployed model via HTTP GET and POST requests. I have also created, publish, and consume a pipeline so that the model is publicly available and everybody can use it. 
 
 ## Architectural Diagram:
- 
+ ![arch_diagram](https://user-images.githubusercontent.com/30224144/96360454-46995d80-113f-11eb-944c-e9209f0043bc.jpg)
+
+
 
 
 ## Key steps:
 ### Automated ML Experiment:
 Starting with the project, first I have selected “Registered Datasets” in ML Studio, named “Bank_Marketing” dataset. As I have worked from the Project Lab provided by Udacity, I do not have to create any service principal or authorization. Then I have selected Automated ML model for the dataset, set some parameter according to the instructions like setting experiment name, cluster name, compute power, compute type etc. It gives me best model for the dataset.
  
+![1_dataset](https://user-images.githubusercontent.com/30224144/96360458-4dc06b80-113f-11eb-9d54-f83c81eda920.jpg)
 
+![2_Complete_exp](https://user-images.githubusercontent.com/30224144/96360461-53b64c80-113f-11eb-9502-2996be18e101.jpg)
+
+![3_best_model](https://user-images.githubusercontent.com/30224144/96360465-5ca71e00-113f-11eb-858d-89e6f366611e.jpg)
  
  
 
@@ -20,6 +26,10 @@ After getting the best model for the dataset, I deployed the model and named it 
 Application Insight Enable:
 After deploying successfully, I have enabled application insights to True to monitor and log data. The following screenshots are of logs.py and Enabled Application Insights.
  
+![4_logs1](https://user-images.githubusercontent.com/30224144/96360471-66308600-113f-11eb-9382-b7ae99c610dd.jpg)
+
+![5_logs2](https://user-images.githubusercontent.com/30224144/96360483-73e60b80-113f-11eb-9cb2-6c1ae7ddaec2.jpg)
+
 
  
 
