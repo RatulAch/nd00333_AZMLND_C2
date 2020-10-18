@@ -59,7 +59,7 @@ After the pipeline is created, I executed jupyter notebook cells to publish it f
 ![14_scheduled_run](https://user-images.githubusercontent.com/30224144/96360640-a93f2900-1140-11eb-9b0e-bae4b6130dbb.jpg)
 
 ## Screen Recording:
-[Project video]()
+[Project video](https://drive.google.com/file/d/1eGGXpd7rSV8WaUZuJ0l79mAijRMshuxF/view?usp=sharing)
 
 Here is the screen recording of my project. The pipeline endpoints are discussed here in the video.
 
