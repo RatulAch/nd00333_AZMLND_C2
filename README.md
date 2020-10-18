@@ -31,38 +31,32 @@ After deploying successfully, I have enabled application insights to True to mon
 ![5_logs2](https://user-images.githubusercontent.com/30224144/96360483-73e60b80-113f-11eb-9cb2-6c1ae7ddaec2.jpg)
 
 
- 
-
-
- 
+ ![6_app_enabled](https://user-images.githubusercontent.com/30224144/96360604-6f6e2280-1140-11eb-8cff-1ea42b0b61e5.jpg)
 
 
 
 ### Swagger Documentation:
 Swagger documentation is used to communicate via HTTP request with the model. Using Gitbash, I have enabled docker ports for swagger. I have used localhost:8001 port for swaggerapi and localhost:8003 for “ex-deploy” model.
- 
+
+![7_swagger](https://user-images.githubusercontent.com/30224144/96360608-76953080-1140-11eb-84b4-e9dc731f9040.jpg)
 
 ### Consume Endpoints:
 After the Swagger documentation is done successfully, the model is ready to consume. From the endpoint, I can get Rest-endpoint link and key to access. If I send JSON post request via SwaggerAPI, I will get the desired output after running endpoint.py, as shown in the following screenshot.
- 
-
+![8_endpointpy](https://user-images.githubusercontent.com/30224144/96360612-7e54d500-1140-11eb-98d4-8e2011035e0c.jpg)
 
 ### Creating a Pipeline:
 In this step, I have uploaded the ‘aml-pipeline’ jupyter notebook file, changed the experiment and cluster name according to my project and then started executing notebook cells one by one. After a while, pipeline is created and. Then I have checked the pipeline endpoint. Following screenshots are of pipeline section, pipeline endpoint and dataset with AutoML Module.
+![9_pipeline_created](https://user-images.githubusercontent.com/30224144/96360618-857be300-1140-11eb-95e6-214b69a9265f.jpg)
+![10_pipeline_endpoint](https://user-images.githubusercontent.com/30224144/96360621-8ca2f100-1140-11eb-9e77-d8484eadf5a1.jpg)
+![11_automl_dataset](https://user-images.githubusercontent.com/30224144/96360626-93316880-1140-11eb-9ed4-54f9fa9b4f98.jpg)
  
-
- 
-
- 
-
-
 ### Publishing and Consuming a pipeline:
 After the pipeline is created, I executed jupyter notebook cells to publish it from Rest-endpoint and Run widget module is also successful as shown in the screenshot. Then I published the pipeline. The following screenshots are of Published Pipeline Overview(Right hand side of the screenshot), Run details widget and scheduled run.
- 
+![12_published_pipeline_overview](https://user-images.githubusercontent.com/30224144/96360631-99274980-1140-11eb-81ff-fa661aebde08.jpg)
 
- 
+![13_run_details](https://user-images.githubusercontent.com/30224144/96360634-9fb5c100-1140-11eb-8a18-cf2ef2e3eabf.jpg)
 
-
+![14_scheduled_run](https://user-images.githubusercontent.com/30224144/96360640-a93f2900-1140-11eb-9b0e-bae4b6130dbb.jpg)
 
 ## Screen Recording:
 [Project video]()
