@@ -34,8 +34,7 @@ After the Swagger documentation is done successfully, the model is ready to cons
 
 ### Creating a Pipeline:
 In this step, I have uploaded the ‘aml-pipeline’ jupyter notebook file, changed the experiment and cluster name according to my project and then started executing notebook cells one by one. After a while, pipeline is created and. Then I have checked the pipeline endpoint. Following screenshots are of pipeline section, pipeline endpoint and dataset with AutoML Module.
-![9_pipeline_create](https://user-images.githubusercontent.com/30224144/96470086-be56ad80-124f-11eb-9d8e-c234caed0dc2.jpg)
-
+![9_pipeline_create](https://user-images.githubusercontent.com/30224144/96472889-d11eb180-1252-11eb-8ef7-9be470138749.jpg)
 ![10_pipeline_endpoint](https://user-images.githubusercontent.com/30224144/96470126-c4e52500-124f-11eb-8f33-1ed8fa734967.jpg)
 
 ![11_datasetautoml](https://user-images.githubusercontent.com/30224144/96470173-d4fd0480-124f-11eb-865f-1ba9604370d4.jpg)
