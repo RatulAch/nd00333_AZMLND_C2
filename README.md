@@ -7,10 +7,12 @@ I have worked on Bank Marketing Dataset to train. I have used Microsoft Azure to
 
 ## Key steps:
 ### Automated ML Experiment:
-Starting with the project, first I have selected “Registered Datasets” in ML Studio, named “Bank_Marketing” dataset. As I have worked from the Project Lab provided by Udacity, I do not have to create any service principal or authorization. Then I have selected Automated ML model for the dataset, set some parameter according to the instructions like setting experiment name, cluster name, compute power, compute type etc. It gives me best model for the dataset.
+Starting with the project, first I have selected “Registered Datasets” in ML Studio, named “Bank_Marketing” dataset. As I have worked from the Project Lab provided by Udacity, I do not have to create any service principal or authorization. Then I have selected Automated ML model for the dataset, set some parameter according to the instructions like setting experiment name as ex-demo, cluster name as clus-demo, compute power, compute type etc. It gives me best model for the dataset.
  
-![1_dataset](https://user-images.githubusercontent.com/30224144/96469904-8ea7a580-124f-11eb-8e78-4f9ae5e2cd49.jpg)
-![2_complete_exp](https://user-images.githubusercontent.com/30224144/96469911-91a29600-124f-11eb-96f5-00cc4f448d2f.jpg)
+
+![1_dataset](https://user-images.githubusercontent.com/30224144/96473649-b993f880-1253-11eb-97d9-d60c123e1a31.jpg)
+
+![2_complete_exp](https://user-images.githubusercontent.com/30224144/96473687-c284ca00-1253-11eb-8c46-5a7b54fa867f.jpg)
 ![3_bestmodel](https://user-images.githubusercontent.com/30224144/96469922-95361d00-124f-11eb-8618-4186ab5ad09a.jpg)
 
 ### Deploy the Best Model:
